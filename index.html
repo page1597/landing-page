@@ -10,8 +10,145 @@
   <body>
     <header>
       <h1 class="sr-only">HODU</h1>
+      <img
+        srcset="./img/logo.svg 130w"
+        sizes="
+          (max-width: 767px) 92px,
+          (max-width: 1440px) 130px,
+          (min-width: 1441px) 130px"
+        src="./img/logo.svg"
+        alt="HODU"
+      />
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#support">Support</a></li>
+          <li><button>Download</button></li>
+        </ul>
+      </nav>
+      <button class="menu-button">
+        <img src="./img/menu.svg" alt="menu" width="32" />
+      </button>
     </header>
-    <main></main>
-    <footer></footer>
+    <main>
+      <section id="section1">
+        <h2 class="sr-only">섹션#1</h2>
+        <div>
+          <h3>Lorem Ipsum is simply dummy text of the printing and</h3>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown
+          </p>
+          <button>Download</button>
+        </div>
+        <div class="cat-image">
+          <img
+            srcset="./img/box-cat.png 415w"
+            sizes="
+          (max-width: 767px) 197px,
+          (max-width: 1020px) 270px,
+          (max-width: 1440px) 300px,
+          (min-width: 1441px) 415px"
+            src="./img/box-cat.png"
+            alt=""
+          />
+        </div>
+      </section>
+      <section id="section2">
+        <h2 class="sr-only">섹션#2</h2>
+        <div class="cat"></div>
+        <div>
+          <h3>
+            Lorem Ipsum is simply dummy text of the printing and dummy text
+          </h3>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+          </p>
+        </div>
+      </section>
+      <section id="section3">
+        <h3>dummy text of the printing and dummy</h3>
+        <p>
+          Lorem Ipsum is simply <span>dummy text</span> of the printing and
+          typesetting industry.<br />Lorem Ipsum has been the industry's
+          standard dummy text ever since the 1500s, when an unknown
+        </p>
+        <div class="image-container">
+          <div class="image1"></div>
+          <div class="image2"></div>
+          <div class="image3"></div>
+        </div>
+        <div class="learn-more-container">
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.<br />Lorem Ipsum has been the industry's standard dummy
+            text ever since the 1500s, when an unknown Ipsum is simply dummy
+            text of the printing and typesetting industry.
+          </p>
+          <button>Learn more</button>
+        </div>
+      </section>
+      <section id="section4">
+        <aside>
+          <div>
+            <h3>Subscribe to our Blog post</h3>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.<br />Lorem Ipsum has been the industry's standard dummy
+              text
+            </p>
+          </div>
+
+          <input type="text" placeholder="Enter your e-mail address" />
+          <button id="subscribe">subscribe</button>
+        </aside>
+        <div class="cat-background-image"></div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <!-- <img
+          srcset="./img/logo.svg 130w"
+          sizes="
+          (max-width: 767px) 112px,
+          (max-width: 1440px) 226px,
+          (min-width: 1441px) 226px"
+          src="./img/logo.svg"
+          alt="HODU"
+        /> -->
+        <img
+          srcset="./img/logo.svg 130w"
+          sizes="
+          (max-width: 767px) 92px,
+          (max-width: 1440px) 130px,
+          (min-width: 1441px) 130px"
+          src="./img/logo.svg"
+          alt="HODU"
+        />
+        <div class="social-container">
+          <a href="#blog" id="blog"><img src="./img/blog.svg" alt="" /> </a
+          ><a href="#instagram" id="instagram"
+            ><img src="./img/instagram.svg" alt=""
+          /></a>
+          <a href="#facebook" id="facebook"
+            ><img src="./img/facebook.svg" alt=""
+          /></a>
+          <a href="#youtube" id="youtube"
+            ><img src="./img/youtube.svg" alt=""
+          /></a>
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#home">About</a></li>
+          <li><a href="#about">Blog</a></li>
+          <li><a href="#support">Support</a></li>
+          <li><a href="#terms-of-use">Terms of Use</a></li>
+        </ul>
+      </nav>
+    </footer>
   </body>
 </html>
