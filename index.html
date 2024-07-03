@@ -20,22 +20,22 @@
         alt="HODU"
       />
       <nav>
+        <button id="go-back" type="button">
+          <img
+            class="go-back"
+            src="./img/arrow-right.svg"
+            alt="back"
+            width="32"
+          />
+        </button>
         <ul>
-          <button id="go-back">
-            <img
-              class="go-back"
-              src="./img/arrow-right.svg"
-              alt="back"
-              width="32"
-            />
-          </button>
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#support">Support</a></li>
-          <li><button>Download</button></li>
+          <li><button type="button">Download</button></li>
         </ul>
       </nav>
-      <button class="menu-button">
+      <button class="menu-button" type="button">
         <img src="./img/menu.svg" alt="menu" width="32" />
       </button>
     </header>
@@ -49,7 +49,7 @@
             industry. Lorem Ipsum has been the industry's standard dummy text
             ever since the 1500s, when an unknown
           </p>
-          <button>Download</button>
+          <button type="button">Download</button>
         </div>
         <div class="cat-image">
           <img
@@ -76,6 +76,7 @@
         </div>
       </section>
       <section id="section3">
+        <h2 class="sr-only">섹션#3</h2>
         <h3>dummy text of the printing and dummy</h3>
         <p>
           Lorem Ipsum is simply <span>dummy text</span> of the printing and
@@ -95,15 +96,17 @@
             text ever since the 1500s, when an unknown Ipsum is simply dummy
             text of the printing and typesetting industry.
           </p>
-          <button>Learn more</button>
+          <button type="button">Learn more</button>
         </div>
       </section>
 
       <section id="section4">
+        <h2 class="sr-only">섹션#4</h2>
         <!-- 구독 완료 모달 -->
         <article id="subscribe-modal">
           <img
             class="modal-background"
+            src="/img/modal-bg-img.png"
             srcset="./img/modal-bg-img.png 1200w"
             alt=""
             sizes="(max-width: 767px) 300px, 
@@ -112,19 +115,18 @@
           <header>
             <h2 class="sr-only">구독 완료 모달창</h2>
           </header>
-          <main>
-            <img
-              srcset="./img/cat-subscribe.png 220w"
-              alt=""
-              sizes="(max-width: 767px) 60px, 
+          <img
+            src="./img/cat-subscribe.png"
+            srcset="./img/cat-subscribe.png 220w"
+            alt=""
+            sizes="(max-width: 767px) 60px, 
           (max-width: 1441px) 110px, 110px"
-            />
+          />
 
-            <h2>Thank you!</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing industry.</p>
-          </main>
+          <h2>Thank you!</h2>
+          <p>Lorem Ipsum is simply dummy text of the printing industry.</p>
           <footer>
-            <button>OK! I Love HODU</button>
+            <button type="button">OK! I Love HODU</button>
           </footer>
         </article>
         <!--  -->
@@ -147,7 +149,7 @@
         <div class="cat-background-image"></div>
       </section>
       <!-- 맨 위로가기 버튼 -->
-      <button id="top">
+      <button id="top" type="button">
         <img src="./img/top-btn.svg" alt="top" width="40" />
       </button>
     </main>
