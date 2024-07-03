@@ -196,6 +196,7 @@ p {
     height: 190px;
     border-radius: 18px;
     box-shadow: 10px 10px 20px 0px #00000040;
+    margin-top: 40px;
   }
 }
 #section2 > div {
