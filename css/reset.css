@@ -90,9 +90,9 @@ input {
   border: 0;
   font-size: 100%;
   font: inherit;
+  color: inherit;
   vertical-align: baseline;
   text-decoration: none;
-  color: #000;
 }
 /* HTML5 display-role reset for older browsers */
 article,

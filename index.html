@@ -21,6 +21,14 @@
       />
       <nav>
         <ul>
+          <button id="go-back">
+            <img
+              class="go-back"
+              src="./img/arrow-right.svg"
+              alt="back"
+              width="32"
+            />
+          </button>
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#support">Support</a></li>
@@ -47,9 +55,7 @@
           <img
             srcset="./img/box-cat.png 415w"
             sizes="
-          (max-width: 767px) 197px,
-          (max-width: 1020px) 270px,
-          (max-width: 1440px) 300px,
+            (max-width: 767px) 197px,
           (min-width: 1441px) 415px"
             src="./img/box-cat.png"
             alt=""
@@ -76,6 +82,7 @@
           typesetting industry.<br />Lorem Ipsum has been the industry's
           standard dummy text ever since the 1500s, when an unknown
         </p>
+        <!-- 모바일 환경에서의 이미지 슬라이더 -->
         <div class="image-container">
           <div class="image1"></div>
           <div class="image2"></div>
@@ -91,10 +98,39 @@
           <button>Learn more</button>
         </div>
       </section>
+
       <section id="section4">
+        <!-- 구독 완료 모달 -->
+        <article id="subscribe-modal">
+          <img
+            class="modal-background"
+            srcset="./img/modal-bg-img.png 1200w"
+            alt=""
+            sizes="(max-width: 767px) 300px, 
+          (max-width: 1441px) 600px, 600px"
+          />
+          <header>
+            <h2 class="sr-only">구독 완료 모달창</h2>
+          </header>
+          <main>
+            <img
+              srcset="./img/cat-subscribe.png 220w"
+              alt=""
+              sizes="(max-width: 767px) 60px, 
+          (max-width: 1441px) 110px, 110px"
+            />
+
+            <h2>Thank you!</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing industry.</p>
+          </main>
+          <footer>
+            <button>OK! I Love HODU</button>
+          </footer>
+        </article>
+        <!--  -->
         <aside>
           <div>
-            <h3>Subscribe to our Blog post</h3>
+            <h2>Subscribe to our Blog post</h2>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry.<br />Lorem Ipsum has been the industry's standard dummy
@@ -102,29 +138,23 @@
             </p>
           </div>
 
-          <input type="text" placeholder="Enter your e-mail address" />
-          <button id="subscribe">subscribe</button>
+          <form action="submit">
+            <input type="text" placeholder="Enter your e-mail address" />
+            <img class="mail-icon" src="./img/mail.svg" alt="" />
+            <button id="subscribe" type="submit">subscribe</button>
+          </form>
         </aside>
         <div class="cat-background-image"></div>
       </section>
     </main>
     <footer>
       <div class="footer-container">
-        <!-- <img
-          srcset="./img/logo.svg 130w"
-          sizes="
-          (max-width: 767px) 112px,
-          (max-width: 1440px) 226px,
-          (min-width: 1441px) 226px"
-          src="./img/logo.svg"
-          alt="HODU"
-        /> -->
         <img
           srcset="./img/logo.svg 130w"
           sizes="
-          (max-width: 767px) 92px,
-          (max-width: 1440px) 130px,
-          (min-width: 1441px) 130px"
+          (max-width: 767px) 112px,
+          (max-width: 1440px) 180px,
+          (min-width: 1441px) 226px"
           src="./img/logo.svg"
           alt="HODU"
         />
@@ -143,8 +173,8 @@
       </div>
       <nav>
         <ul>
-          <li><a href="#home">About</a></li>
-          <li><a href="#about">Blog</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#blog">Blog</a></li>
           <li><a href="#support">Support</a></li>
           <li><a href="#terms-of-use">Terms of Use</a></li>
         </ul>
