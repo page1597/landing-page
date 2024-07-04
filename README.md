@@ -7,13 +7,14 @@
 
 ## 기간
 화면 구현: 2024.07.02 ~ 2024.07.03
-
-- <b>데스크탑 화면</b>
+<br /><br />
+- <b>Desktop</b>
 <img src="https://github.com/page1597/landing-page/assets/62283847/ab7a90fc-3bec-4171-8136-4389fcaedd46" width="800" alt="데스트탑 랜딩 페이지" />
 
-- <b>모바일 화면</b>
+- <b>Mobile</b>
 <img src="https://github.com/page1597/landing-page/assets/62283847/2d81f2fd-b86c-401c-8dfe-d116be8a541e" width="430" alt="모바일 메인 페이지" />
 
 <br /><br />
-※ 본 서비스 내 이미지 및 콘텐츠의 저작권은 주식회사 WeNiv에 있습니다.
-수정 및 재배포, 무단 도용 시 법적인 문제가 발생할 수 있습니다.
+※ 본 서비스 내 이미지 및 콘텐츠의 저작권은 주식회사 WeNiv에 있습니다.<br />
+$~~~$수정 및 재배포, 무단 도용 시 법적인 문제가 발생할 수 있습니다.
+
