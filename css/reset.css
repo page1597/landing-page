@@ -134,6 +134,9 @@ button {
   border: none;
   cursor: pointer;
 }
+dialog {
+  border: none;
+}
 .sr-only {
   position: absolute;
   width: 1px;
